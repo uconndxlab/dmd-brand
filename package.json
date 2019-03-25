@@ -1,0 +1,14 @@
+{
+  "name": "dmd-brand",
+  "version": "1.0.0",
+  "description": "Branding Website for UConn DMD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Morris",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^0.7.4"
+  }
+}
