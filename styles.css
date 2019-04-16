@@ -1,3 +1,5 @@
+
+
 @tailwind preflight;
 
 @tailwind components;
@@ -22,6 +24,8 @@
     justify-content: space-around;
     box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, .08), 0 -2px 4px 0 rgba(0, 0, 0, .04);
 }
+
+
 
 @media (min-width: 666px ) {
     #search-container {
@@ -301,15 +305,30 @@
     margin: 0px;
 }
 
+h3, p, a {
+  text-align: left;
+}
+
+h3 {
+  padding-bottom: 4px;
+  border-bottom: 1px solid black;
+}
+
 .nav-link {
     color: #606060;
     text-decoration:none;
     padding: 0 0.5rem;
+    border:1px solid #CCE8F8;
+    border-radius:8px;
 }
 
 .nav-link:hover {
     color: black;
     text-decoration:underline;
+}
+
+.page-header {
+  text-align: center;
 }
 
 
