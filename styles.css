@@ -331,5 +331,13 @@ h3 {
   text-align: center;
 }
 
+.sidebar {
+  
+}
+
+.content-section {
+
+}
+
 
 @tailwind utilities;
