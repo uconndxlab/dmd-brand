@@ -332,11 +332,42 @@ h3 {
 }
 
 .sidebar {
-  
+
+}
+
+.sidebar-link {
+  display: block;
+  text-decoration:none;
 }
 
 .content-section {
+  padding-top:1em;
+  padding-bottom:2em;
+  margin-bottom:2em;
+}
 
+.content-section ul li {
+  text-align:left;
+}
+
+.content-section-inner {
+  padding:2em;
+}
+
+.content-section-inner p, .content-section-inner ul {
+  padding:1em;
+  margin-top:2em;
+  background:#f9f9f9;
+  border-radius:10px;
+}
+
+.main-search {
+  max-width: 800px;
+  margin-top:5em;
+}
+
+.main-search-p {
+  max-width: 800px;
 }
 
 

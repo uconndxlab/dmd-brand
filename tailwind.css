@@ -869,15 +869,71 @@ table {
   margin: 0px;
 }
 
+h3,
+p,
+a {
+  text-align: left;
+}
+
+h3 {
+  padding-bottom: 4px;
+  border-bottom: 1px solid black;
+}
+
 .nav-link {
   color: #606060;
   text-decoration: none;
   padding: 0 .5rem;
+  border: 1px solid #cce8f8;
+  border-radius: 8px;
 }
 
 .nav-link:hover {
   color: black;
   text-decoration: underline;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.sidebar {
+}
+
+.sidebar-link {
+  display: block;
+  text-decoration: none;
+}
+
+.content-section {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+.content-section ul li {
+  text-align: left;
+}
+
+.content-section-inner {
+  padding: 2em;
+}
+
+.content-section-inner p,
+.content-section-inner ul {
+  padding: 1em;
+  margin-top: 2em;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.main-search {
+  max-width: 800px;
+  margin-top: 5em;
+}
+
+.main-search-p {
+  max-width: 800px;
 }
 
 .list-reset {
